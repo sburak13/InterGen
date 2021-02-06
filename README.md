@@ -3,7 +3,7 @@ InterGen
 
 Project Name: InterGen
 
-Link: https://femmehacks-proj-2.glitch.me/
+Link: https://intergen.glitch.me/
 
 Authors: Samantha Burak, Sana Choudhary, Archika Dogra, Alison Lee
 
