@@ -1,0 +1,116 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #ccccff;
+}
+
+.white-box {
+  background-color: white;
+  margin: 2em;
+  margin-top: 3em;
+  color: black;
+}
+
+.purple-box {
+  background-color: #ccccff;
+  margin: 2em;
+  margin-top: 3em;
+  color: black;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-style: "Lucida Console";
+  color: #6600cc;
+}
+
+h2 {
+  font-style: "Lucida Console";
+  color: #373fff;
+}
+
+h3 {
+  color: #373fff;
+  text-align: right;
+  margin-right: 2em;
+  margin-top: 25px;
+}
+
+p {
+  margin: 2em;
+}
+
+.button {
+  background-color: #ccccff; /* Purple */
+  border: black;
+  color: black;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.end {
+  background-color: #f2f2f2; /* Red */
+  border: none;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.report {
+  background-color:  #f2f2f2; /* Red */
+  border: none;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-allign: ;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styled-table thead tr {
+  background-color: #6600cc;
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #FFFFFF;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+  background-color: #E0E0E0;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #6600cc;
+}

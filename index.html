@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Intergen</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="white-box">
+      <br />
+
+      <h1>Welcome to InterGen!</h1>
+      <img src="https://cdn.glitch.com/ac644508-7a94-4ecb-99b7-792173dc87f8%2Flogo.PNG?v=1612648065329" alt="Intergen Logo" width="120" height="100">
+      <h2>Please sign in below:</h2>
+
+      <form action="/action_page.php">
+        <input type="checkbox" id="student" name="vehicle1" value="Student" />
+        <label for="vehicle1"> I am a student</label><br />
+        <input type="checkbox" id="senior" name="vehicle2" value="Senior" />
+        <label for="vehicle2"> I am a senior</label><br /><br />
+        <label for="uname"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="uname"
+          id="uname"
+          required
+        /><br />
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+               
+        />
+        <br /><br />
+        <!-- input type="submit" value="Submit" onclick = "myFunction()"> -->
+        <!-- <button type="submit" onclick = "myFunction()">Login</button> -->
+        
+       <!-- <script>
+          b1.addEventListener(
+            "click",
+            function() {
+              othername();
+            },
+            false
+          );
+          console.log(user_input);
+        </script>-->
+        
+
+        <!--<form id="form" onsubmit="return false;">
+          <input
+            style="position:absolute; top:80%; left:5%; width:40%;"
+            type="text"
+            id="userInput"
+          />
+          <input
+            style="position:absolute; top:50%; left:5%; width:40%;"
+            type="submit"
+            onclick="othername();"
+          />
+        </form>-->
+      </form>
+      <button
+          class="button"
+          id="b1"
+          onclick="location.href='TeenStartCall.html'">
+          Sign In As Student
+        </button>
+<button class="button" onclick="location.href='ElderAcceptCall.html'">
+          Sign In As Senior
+        </button>
+      
+      
+      <br /><br />
+
+      <!--<h1>Sign In Here!</h1>-->
+      <a href="./about.html">Click Here to Learn More about Intergen</a>
+      <br /><br /><br />
+    </div>
+  </body>
+</html>
