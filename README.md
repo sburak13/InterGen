@@ -3,9 +3,11 @@ InterGen
 
 Project Name: InterGen
 
+Link: https://femmehacks-proj-2.glitch.me/
+
 Authors: Samantha Burak, Sana Choudhary, Archika Dogra, Alison Lee
 
-Tagline: Inspiring students and senior citizens to foster intergenerational relationships
+Tagline: Inspiring students and senior citizens to foster intergenerational relationships.
 
 Description: 
 
@@ -13,6 +15,6 @@ InterGen is an online video conferencing platform that was created in order to c
 
 This platform contains a Sign In Page for both students and seniors to log in. Both students and seniors will be able to chat with each other using the video call button,  and also see their previous call history. There is a timer as well so that students can track their volunteer progress and send it to counselors for approval. 
 
-Create during FemmeHacks 2021
+Create during FemmeHacks 2021.
 
-Made in Glitch
+Made in Glitch.
